@@ -1,0 +1,43 @@
+<html>
+<head>
+  <style>
+    h1{
+      color:#083260;
+      text-align:center;
+      margin-top:50px;
+    }
+  #box{
+    height:100px;
+    width:350px;
+    margin:0px auto;
+    color:white;
+    background:#1D65A4;
+    border:8px solid #78B5E8;
+    border-radius:10px;
+    text-align:center;
+    box-sizing:border-box;
+    font-size:50px;
+    padding:5px;
+  }
+  </style>
+</head>
+<body>
+  <h1>Digital Clock</h1>
+  <div id="box"><p></p></div>
+  <script>
+  let para=document.querySelector('p');
+  let div=document.querySelector("#box");
+  //console.log(present)
+  window.setInterval(digital,1000);
+  function digital()
+  {
+    let present=new Date();
+    let hour=present.getHours();
+    let minute=present.getMinutes();
+    let second=present.getSeconds();
+    div.innerHTML=hour+" : "+minute+ " : " +second;
+    
+  }
+  </script>
+</body>
+</html>
