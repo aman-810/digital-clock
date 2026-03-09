@@ -30,4 +30,5 @@ Aman Prajapati
 
 GitHub: https://github.com/aman-810
 📷 Screenshot
-<img src="Screenshot_20260309_151840_Html Editor.png" width="200px"/>
+<br>
+<img src="Screenshot_20260309_151840_Html Editor.png" height="250px" width="200px"/>
