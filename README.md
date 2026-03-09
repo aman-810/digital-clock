@@ -29,6 +29,7 @@ The clock displays the current time and automatically updates every second using
 Aman Prajapati
 
 GitHub: https://github.com/aman-810
+<br>
 📷 Screenshot
 <br>
 <img src="Screenshot_20260309_151840_Html Editor.png" height="250px" width="200px"/>
